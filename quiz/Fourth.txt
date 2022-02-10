@@ -1,0 +1,4 @@
+What is the lock monitor for a synchronized instance method?
+
+When a thread calls a synchronous method, it automatically acquires the internal lock on the method object and releases the lock when the method returns. 
+Lock release occurs even if the return is caused by an uncaught exception

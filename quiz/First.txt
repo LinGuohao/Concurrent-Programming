@@ -1,0 +1,5 @@
+What are java threads for?
+(1) Easy to dispatch
+(2) Improve concurrency
+(3) It is conducive to give full play to the performance of multi-processors, 
+by creating multi-threaded processes, each process runs on one processor, so as to realize the concurrency of applications.

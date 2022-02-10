@@ -1,0 +1,6 @@
+What is synchronized block used for?
+Java allows multi-threaded concurrent control. 
+When multiple threads operate a shared resource variable at the same time (such as data addition, deletion, modification, and check), 
+the data will be inaccurate and conflicts between each other. 
+Therefore, synchronization locks are added to avoid this Before the thread completes the operation, it is called by other threads, 
+thus ensuring the uniqueness and accuracy of the variable.

@@ -1,0 +1,12 @@
+How can we create nad start a thread?
+	Method 1: Inherit the Thread class
+		 Start the thread by calling the start method
+	Method 2: Implement Runnable interface
+		  Pass the Runnbale object as a parameter to the constructor of Thread to create Thread.
+	                  And call start method of this thread
+	Method 3: Create and start a new thread using the Callable interface
+		  Rewrite call() in the callable class, use callable to create FutureTask objects, 
+		  then use FutureTask to create Thread, and finally start Thread 
+	Method 4: Create threads through the thread pool
+		  Create Callable, pass the task command into the thread pool through execute() or submit() of the thread pool
+
